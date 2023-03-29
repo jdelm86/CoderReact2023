@@ -5,9 +5,9 @@ const NavBar = () => {
         <nav>
             <h3>Ecommerce</h3>
             <div>
-                <button>Celulares</button>
-                <button>Tablets</button>
-                <button>Notebooks</button>
+                <button className="botones">Camisetas</button>
+                <button className="botones">Shorts</button>
+                <button className="botones">Botines</button>
             </div>
             <CartWidget />
         </nav>

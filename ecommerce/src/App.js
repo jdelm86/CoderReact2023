@@ -1,5 +1,6 @@
 
 import './App.css';
+import './components/components.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
@@ -11,5 +12,10 @@ function App() {
     </div>
   );
 }
+
+
+
+
+
 
 export default App;
