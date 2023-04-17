@@ -1,5 +1,12 @@
+
 .botones {
-    background-color: yellow
+        background-color: blanchedalmond;
+        height: 50px;
+        width: fit-content;
+        border-radius: 10px;
+        color: black;
+        font-size: medium;
+        margin-bottom: 10px;
 }
 
 .saludo {

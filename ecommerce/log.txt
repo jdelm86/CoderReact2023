@@ -1,0 +1,5 @@
+
+
+
+dar estilos al navbar una vez terminado de ver el video
+dar estilos a los componentes que faltan

@@ -1,0 +1,33 @@
+
+.Counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: lightblue;
+    border-radius: 10px;
+    border-color: black;
+    border-style: double;
+}
+
+.Controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Button {
+    background-color: blanchedalmond;
+    height: 50px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: medium;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
