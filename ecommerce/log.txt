@@ -3,3 +3,25 @@
 
 dar estilos al navbar una vez terminado de ver el video
 dar estilos a los componentes que faltan
+
+
+PRUEBAS
+en asyncMock
+export const getProductById = (ProductId) => {
+    return new Promise ((resolve) => {
+        setTimeout(() => {
+            resolve(products.find(prod => prod.id === ProductId))
+        },500)
+    })
+}
+
+en ItemDetailContainer
+    useEffect(() => {
+        getProductById(itemId)
+        .then(Response => {
+            setProduct(Response)
+        })
+        .catch(Error => {
+            console.error(Error)
+        })
+    }, [itemId])
