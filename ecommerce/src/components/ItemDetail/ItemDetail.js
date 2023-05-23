@@ -2,6 +2,7 @@ import { useContext, useState } from "react"
 import ItemCount from "../ItemCount/ItemCount"
 import { Link } from "react-router-dom"
 import { CartContext } from "../Context/CartContext"
+import './ItemDetail.css'
 
 
 
@@ -32,13 +33,13 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
             </picture>
             <section>
             <p className="Info">
-                    categoria: {category}
+                    Categoria: {category}
                 </p>
                 <p className="Info">
-                    descripcion: {description}
+                    Descripcion: {description}
                 </p>
                 <p className="Info">
-                    precio: {price}
+                    Precio: {price}
                 </p>
             </section>
             <footer className="ItemFooter">
