@@ -1,0 +1,9 @@
+.CartWidget {
+    display: flex;
+    text-decoration: none;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}

@@ -22,7 +22,7 @@ const CheckoutForm = ({ onConfirm }) => {
         <div className='Container'>
             <form onSubmit={handleConfirm} className='Form'>
                 <label className='Label'>
-                    Nombre
+                    Nombre:
                     <input className='Input'
                         type='text'
                         value={name}
@@ -30,7 +30,7 @@ const CheckoutForm = ({ onConfirm }) => {
                     />
                 </label>
                 <label className='Label'>
-                    Telefono
+                    Telefono:
                     <input className='Input'
                         type='text' 
                         value={phone}
@@ -38,7 +38,7 @@ const CheckoutForm = ({ onConfirm }) => {
                     />
                 </label>
                 <label className='Label'>
-                    Email
+                    Email:
                     <input className='Input'
                         type="email" 
                         value={email}

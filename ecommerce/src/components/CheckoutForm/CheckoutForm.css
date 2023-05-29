@@ -11,3 +11,22 @@
     margin-right: 30px;
 
 }
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 800px;
+
+}
+
+.Input {
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
+.Label {
+    padding-top: 25px;
+}

@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import { CartContext } from "../Context/CartContext"
+import "./CartItem.css"
 
 const CartItem = ({ id, name, price, quantity }) => {
     const { removeItem } = useContext(CartContext)
@@ -14,7 +15,7 @@ const CartItem = ({ id, name, price, quantity }) => {
             <p>Cantidad: {quantity}</p>
             <p>Precio: {price}</p>
             <p>Sub Total: {price * quantity}</p>
-            <button className="botonEliminar" onClick={handleRemove}>X</button>
+            <button className="ButtonErase" onClick={handleRemove}>X</button>
         </div>
     )
 

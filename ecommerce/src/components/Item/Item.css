@@ -2,3 +2,12 @@
     text-decoration: none;
     color: black;
 }
+
+.ItemImg {
+    width: 400px;
+    height: 400px;
+}
+
+footer {
+    padding-bottom: 25px;
+}

@@ -1,5 +1,5 @@
-.Button {
-    background-color: blanchedalmond;
+.ButtonErase {
+    background-color: red;
     height: 50px;
     width: fit-content;
     padding-left: 10px;
@@ -13,12 +13,3 @@
 
 }
 
-.Final {
-    padding-bottom: 1000px;
-}
-
-.Message {
-    display: block;
-    padding-top: 30px;
-    padding-bottom: 1000px;
-}

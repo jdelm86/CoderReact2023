@@ -4,6 +4,7 @@ import { Timestamp, addDoc, collection, documentId, where, writeBatch } from "fi
 import CheckoutForm from '../CheckoutForm/CheckoutForm'
 import { getDocs, query } from "firebase/firestore"
 import { db } from '../../services/firebase/firebaseConfig'
+import "./Checkout.css"
 
 
 
@@ -72,7 +73,7 @@ const Checkout = () => {
     }
 
     if (orderId) {
-        return <h1>El id de su orden es: {orderId}</h1>
+        return <h1 className="Order">El id de su orden es: {orderId}</h1>
     }
 
     return (

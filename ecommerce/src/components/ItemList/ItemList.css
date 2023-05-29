@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 500px;
+}

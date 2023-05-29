@@ -15,9 +15,26 @@
 .Header {
     background-color: blanchedalmond;
     font-size: large;
-    color: lightblue;
+    color: black;
     border-radius: 10px;
     border-color: blue;
     font-style: italic;
     font-weight: bold;
+}
+
+.Button {
+    background-color: blanchedalmond;
+    height: 50px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: medium;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ItemFooter {
+    padding-bottom: 250px;
 }
